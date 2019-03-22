@@ -1,0 +1,83 @@
+.grid-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 20px 0;
+}
+
+.characters-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(77, 77, 77, 0.9);
+  color: #fcfbfb;
+  width: 30%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.276);
+  border-radius: 5px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 25%;
+}
+
+.characters-card .character-info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.characters-card .character-info p {
+  margin-right: 10px;
+}
+
+.characters-card h2 {
+  font-size: 3.4rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #fcfbfb;
+  width: 100%;
+}
+.characters-card p {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #fcfbfb;
+}
+
+.characters-card h6 {
+  margin: 10px 0;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  /* color: #3c3c3c; */
+}
+
+.characters-card .film-list {
+  width: 100%;
+  height: 78%;
+  padding: 0;
+}
+
+.characters-card .film-list .films {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed goldenrod;
+  padding: 2%;
+}
+
+.characters-card .film-list .films p {
+  font-size: 1.8rem;
+  font-weight: initial;
+  margin: 10px 0;
+  color: #fcfbfb;
+}
+
+.films button {
+  border: none;
+  background: transparent;
+  color: goldenrod;
+  font-size: 1.6rem;
+  outline: none;
+}
