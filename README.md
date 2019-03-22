@@ -26,6 +26,8 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is a Javscript front-end library that help managing state in an application. It was developped by Facebook to help with the scalabilty of the app. It also uses a component based approach when it comes to rendering the UI.
+
 - [ ] What does it mean to _think_ in react?
 
 Think in react means to deconstruct the UI of an app as individual reusable components.
